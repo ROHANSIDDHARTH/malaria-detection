@@ -3,7 +3,7 @@ import numpy as np
 import tensorflow as tf
 
 # Load the model
-model = tf.keras.models.load_model(r'D:\rohan\malaria_detection_project 18-04-2024 main and final\malaria_detection_project\malaria_detection_project\malaria_detection\malaria_parasite_detection_model_2.h5')
+model = tf.keras.models.load_model(r'malaria_detection\malaria_parasite_detection_model_2.h5')
 
 
 optimizer = tf.keras.optimizers.Adam()  # Use the same optimizer as before
