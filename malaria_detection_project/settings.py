@@ -13,7 +13,7 @@ SECRET_KEY = 'your_secret_key_here'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['https://malaria-detection-gtq3.onrender.com','127.0.0.1', 'localhost']
 
 # Application definition
 
